@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	* {
+		font-family: "Open Sans", sans-serif;
+	}
+
+	body {
+		@apply bg-black overflow-x-hidden;
+	}
+
+	::-webkit-scrollbar {
+		width: 5px;
+	}
+
+	::-webkit-scrollbar-track {
+		background-color: transparent;
+	}
+
+	::-webkit-scrollbar-thumb {
+		@apply bg-primary;
+	}
+}
+
+@layer utilities {
+	.transition-primary {
+		transition: all ease-in-out;
+		transition-duration: 300ms;
+	}
+}
