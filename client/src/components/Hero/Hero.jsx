@@ -3,7 +3,7 @@ import HeroImage from "./HeroImage";
 
 const Hero = () => {
 	return (
-		<section className="max-h-screen pt-28 text-xl font-bold text-white sm:pt-36 2xl:pt-72">
+		<section className="pt-28 text-xl font-bold text-white sm:pt-36 2xl:pt-72">
 			<div className="container flex flex-col justify-center items-center mx-auto px-10 md:px-5 md:justify-between lg:px-10">
 				<h1 className="text-2xl text-primary font-bold md:text-3xl lg:text-4xl 2xl:text-5xl">
 					Radja Parfum
