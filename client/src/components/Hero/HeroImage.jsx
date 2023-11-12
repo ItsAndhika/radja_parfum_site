@@ -24,7 +24,7 @@ const HeroImage = () => {
 			<img
 				src={`${heroSlides[currentIndex].url}`}
 				alt="Slide"
-				className="h-auto pointer-events-none rounded-full duration-500 max-w-sm md:max-w-md 2xl:max-w-lg"
+				className="h-auto pointer-events-none rounded-full duration-500 md:max-w-md 2xl:max-w-lg"
 			/>
 			<button
 				className="absolute top-[50%] translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-zinc-900 cursor-pointer transition-primary hover:text-primary"
