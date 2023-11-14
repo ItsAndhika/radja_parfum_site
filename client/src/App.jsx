@@ -27,7 +27,7 @@ const App = () => {
 						target="_blank"
 						className="w-full bg-slate-100 flex items-center p-2 rounded-lg cursor-pointer shadow-lg"
 					>
-						<img src="/images/instagram.png" alt="Intagram" className="w-10" />
+						<img src="/images/instagram.webp" alt="Intagram" className="w-10" />
 						<p className="w-full h-full font-semibold text-center">Instagram</p>
 					</a>
 					<a
