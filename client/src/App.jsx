@@ -8,14 +8,12 @@
 const App = () => {
 	return (
 		<>
-			<div className="main">
-				<div className="gradient absolute top-0 bottom-0"></div>
-			</div>
+			<div className="bg-[url(/images/elegant_background.jpg)] w-full h-full absolute top-0 bottom-0 bg-cover bg-center"></div>
 			<main className="w-full h-full flex flex-col justify-center items-center mt-20 gap-10">
 				<div className="w-full h-1/3 flex flex-col justify-center items-center gap-5 z-10">
 					<img
-						src="/images/favicon.webp"
-						alt="Radja Parfum"
+						src="/images/mosto_elegant.webp"
+						alt="Mosto Elegant"
 						className="w-24 rounded-full"
 					/>
 					<p className="font-semibold text-slate-600">@radjaparfumasli</p>
@@ -25,34 +23,40 @@ const App = () => {
 						href="https://instagram.com/radjaparfumasli?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
 						rel="noreferrer"
 						target="_blank"
-						className="w-full bg-slate-100 flex items-center p-2 rounded-lg cursor-pointer shadow-lg"
+						className="w-full bg-white flex items-center p-2 rounded-lg cursor-pointer shadow-lg"
 					>
 						<img src="/images/instagram.webp" alt="Intagram" className="w-10" />
-						<p className="w-full h-full font-semibold text-center">Instagram</p>
+						<p className="w-full h-full font-semibold text-center text-primary">
+							Instagram
+						</p>
 					</a>
 					<a
 						href="http://tiktok.com/@radjaparfumasli"
 						rel="noreferrer"
 						target="_blank"
-						className="w-full bg-slate-100 flex items-center p-2 rounded-lg cursor-pointer shadow-lg"
+						className="w-full bg-white flex items-center p-2 rounded-lg cursor-pointer shadow-lg"
 					>
 						<img src="/images/tiktok.webp" alt="Tiktok" className="w-10" />
-						<p className="w-full h-full font-semibold text-center">Tiktok</p>
+						<p className="w-full h-full font-semibold text-center text-primary">
+							Tiktok
+						</p>
 					</a>
 					<a
 						href="https://shope.ee/1VW790waNH"
 						rel="noreferrer"
 						target="_blank"
-						className="w-full bg-slate-100 flex items-center p-2 rounded-lg cursor-pointer shadow-lg"
+						className="w-full bg-white flex items-center p-2 rounded-lg cursor-pointer shadow-lg"
 					>
 						<img src="/images/shopee.png" alt="Shopee" className="w-10" />
-						<p className="w-full h-full font-semibold text-center">Shopee</p>
+						<p className="w-full h-full font-semibold text-center text-primary">
+							Shopee
+						</p>
 					</a>
 				</nav>
 			</main>
-			<footer className="absolute bottom-0 flex justify-center items-center w-full h-10 bg-transparent backdrop-blur-md z-10">
-				<p className="text-sm font-semibold text-zinc-900 text-center sm:text-base md:text-lg lg:text-lg 2xl:text-xl">
-					© Copyright 2023 Radja Parfum. All Rights Reserved
+			<footer className="absolute bottom-0 flex justify-center items-center w-full h-10 bg-transparent z-10">
+				<p className="text-sm font-semibold text-black text-center sm:text-base md:text-lg lg:text-lg 2xl:text-xl">
+					© Copyright 2023 Mosto Elegant. All Rights Reserved
 				</p>
 			</footer>
 		</>
