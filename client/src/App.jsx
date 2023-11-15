@@ -14,7 +14,7 @@ const App = () => {
 					<img
 						src="/images/mosto_elegant.webp"
 						alt="Mosto Elegant"
-						className="w-24 rounded-full"
+						className="w-32 rounded-full"
 					/>
 					<p className="font-semibold text-slate-600">@mostoelegant</p>
 				</div>
