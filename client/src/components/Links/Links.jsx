@@ -2,7 +2,7 @@ const Links = () => {
 	return (
 		<nav className="max-w-5xl w-full h-1/3 mx-auto px-10 z-10 flex flex-col gap-5">
 			<a
-				href="https://instagram.com/radjaparfumasli?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+				href="https://instagram.com/mostoelegantofficial"
 				rel="noreferrer"
 				target="_blank"
 				className="w-full bg-white flex items-center p-2 rounded-lg cursor-pointer shadow-lg transition-primary hover:scale-105"
@@ -24,7 +24,7 @@ const Links = () => {
 				</p>
 			</a>
 			<a
-				href="https://shope.ee/1VW790waNH"
+				href="https://shopee.co.id/shop/1105339415"
 				rel="noreferrer"
 				target="_blank"
 				className="w-full bg-white flex items-center p-2 rounded-lg cursor-pointer shadow-lg transition-primary hover:scale-105"
