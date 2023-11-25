@@ -13,14 +13,14 @@ const Links = () => {
 				</p>
 			</a>
 			<a
-				href="http://tiktok.com/@radjaparfumasli"
+				href="https://wa.me/+6288294192931"
 				rel="noreferrer"
 				target="_blank"
 				className="w-full bg-white flex items-center p-2 rounded-lg cursor-pointer shadow-lg transition-primary hover:scale-105"
 			>
-				<img src="/images/tiktok.webp" alt="Tiktok" className="w-10" />
+				<img src="/images/whatsapp.webp" alt="WhatsApp" className="w-10" />
 				<p className="w-full h-full font-semibold text-center text-primary">
-					Tiktok
+					WhatsApp
 				</p>
 			</a>
 			<a

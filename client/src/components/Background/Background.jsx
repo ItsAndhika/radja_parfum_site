@@ -1,6 +1,6 @@
 const Background = () => {
 	return (
-		<div className="bg-[url(/images/elegant_background3.webp)] w-full h-full absolute top-0 bottom-0 bg-cover bg-center"></div>
+		<div className="bg-[url(/images/elegant_background4.jpg)] w-full h-full absolute top-0 bottom-0 bg-cover bg-center"></div>
 	);
 };
 
